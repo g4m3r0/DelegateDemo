@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "DemoLibrary\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "WinFormUI\WinFormUI.csproj", "{4CA4F857-EE02-48B8-B04D-2FEB0E4B93AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePersonFilter", "ConsolePersonFilter\ConsolePersonFilter.csproj", "{7721DAA5-BABB-4C9C-8A72-0D6B9AD72700}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4CA4F857-EE02-48B8-B04D-2FEB0E4B93AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CA4F857-EE02-48B8-B04D-2FEB0E4B93AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CA4F857-EE02-48B8-B04D-2FEB0E4B93AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7721DAA5-BABB-4C9C-8A72-0D6B9AD72700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7721DAA5-BABB-4C9C-8A72-0D6B9AD72700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7721DAA5-BABB-4C9C-8A72-0D6B9AD72700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7721DAA5-BABB-4C9C-8A72-0D6B9AD72700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
