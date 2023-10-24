@@ -11,8 +11,23 @@ namespace ConsoleUI
     {
         static ShoppingCartModel cart = new ShoppingCartModel();
 
+        private static bool NameFilter(string s)
+        {
+            return s.Contains("i");
+        }
+        
         static void Main(string[] args)
         {
+            // Simple Example
+            List<string> names = new List<string>() { "Tim", "Biden", "Sue", "Mary" };
+
+            Console.WriteLine(string.Join(", ", names));
+
+            names.RemoveAll(NameFilter);
+            
+            Console.WriteLine(string.Join(", ", names));
+            
+            // Advanced Example
             PopulateCartWithDemoData();
 
             Console.WriteLine($"The total for the cart is {cart.GenerateTotal(SubTotalAlert, CalculateLeveledDiscount, AlertUser):C2}");
